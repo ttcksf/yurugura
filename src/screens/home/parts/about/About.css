@@ -1,0 +1,49 @@
+.aboutHome {
+  height: auto;
+}
+.aboutHome .heading {
+  text-align: center;
+  padding: 0;
+}
+.aboutHome .wrapper {
+  background: var(--thirdColor);
+  padding: 40px;
+}
+.aboutHome .items {
+  margin-top: 50px;
+}
+.aboutHome .item {
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 20px;
+  transition: 0.5s;
+}
+.aboutHome .img {
+  width: 200px;
+  margin-right: 16px;
+}
+.aboutHome img {
+  width: 70px;
+  height: 70px;
+}
+.aboutHome .item h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.aboutHome .item:hover {
+  background-color: var(--firstColor);
+  color: var(--secondColor);
+  cursor: pointer;
+  box-shadow: 0 5px 25px -2px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 768px) {
+  .aboutHome {
+    margin-top: 10%;
+  }
+  .aboutHome .container {
+    flex-direction: column-reverse;
+  }
+  .aboutHome .row {
+    width: 100%;
+  }
+}

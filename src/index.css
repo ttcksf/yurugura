@@ -140,8 +140,8 @@ p {
   text-transform: uppercase;
   text-shadow: 1px 2px 3px var(--thirdColor);
 }
-.margin {
-  margin-top: 40.3%;
+.margin1 {
+  margin-top: 60.3%;
 }
 .margin2 {
   margin-top: 10%;
@@ -173,5 +173,13 @@ p {
   .grid2,
   .grid3 {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .margin1 {
+    margin-top: 90.3%;
+  }
+}
+@media screen and (max-width: 429px) {
+  .margin1 {
+    margin-top: 90.3%;
   }
 }

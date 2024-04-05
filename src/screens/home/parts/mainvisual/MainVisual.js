@@ -7,7 +7,7 @@ const MainVisual = () => {
     <>
       <section className="mainVisual">
         <div className="container">
-          <div className="row">
+          <div className="wrapper">
             <Title
               subTitle="ようこそ ゆるグラへ！"
               mainTitle="「楽しい！」を分かち合う
@@ -29,7 +29,7 @@ const MainVisual = () => {
           </div>
         </div>
       </section>
-      <div className="margin"></div>
+      <div className="margin1"></div>
     </>
   );
 };
