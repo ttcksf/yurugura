@@ -1,7 +1,12 @@
 import React from "react";
+import MainVisual from "./parts/mainvisual/MainVisual";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <MainVisual />
+    </>
+  );
 };
 
 export default Home;
